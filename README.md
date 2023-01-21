@@ -49,5 +49,6 @@ labeled 'stale'.
 
 Test Pool:
 URL: stratum+tcp://85.113.209.121:3433
-Worker: your GDC address 
-Pass: c=GDC If use any miner: ./cpuminer -a scrypt -o stratum+tcp://85.113.209.121:3433 -u GWYourGDCAddress -p c=GDC If wants, port 55555 is pool webui
+Worker: your GDC address
+Pass: c=GDC 
+If use any miner: ./cpuminer -a scrypt -o stratum+tcp://85.113.209.121:3433 -u GWYourGDCAddress -p c=GDC If wants, port 55555 is pool webui
