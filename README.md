@@ -1,4 +1,7 @@
-Grandcoin - a decendent of Litecoin that combines the great features from Luckycoin (random blocks) and Florincoin (transaction message). Like Litecoin it uses scrypt as a proof of work scheme. 
+![bitcoin](https://user-images.githubusercontent.com/26179053/213865382-f8ce1416-4890-4b19-8b78-55595b27d568.png)
+
+
+GrandCoin - a decendent of Litecoin that combines the great features from Luckycoin (random blocks) and Florincoin (transaction message). Like Litecoin it uses scrypt as a proof of work scheme. 
 
 	- 45 seconds block time
 	- Difficulty retargets every 30 blocks 
@@ -44,3 +47,7 @@ Issues with no commits will be given a similar warning, and closed after
 15 days from their last activity. Issues closed in this manner will be 
 labeled 'stale'. 
 
+Test Pool:
+URL: stratum+tcp://85.113.209.121:3433
+Worker: your GDC address 
+Pass: c=GDC If use any miner: ./cpuminer -a scrypt -o stratum+tcp://85.113.209.121:3433 -u GWYourGDCAddress -p c=GDC If wants, port 55555 is pool webui
