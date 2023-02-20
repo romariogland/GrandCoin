@@ -50,12 +50,12 @@ labeled 'stale'.
 
 Test Pool:
 
-URL: stratum+tcp://85.113.209.121:3433
+URL: stratum+tcp://openpool.ru:14003
 
 Worker: your GDC address
 
-Pass: c=GDC 
+Pass: any
 
-If use any miner: ./cpuminer -a scrypt -o stratum+tcp://85.113.209.121:3433 -u GDYourGDCAddress -p c=GDC
+If use any miner: ./cpuminer -a scrypt -o stratum+tcp://openpool.ru:14003 -u GDYourGDCAddress -p x
 
-If wants, port 55555 is pool webui
+If wants, port 8080 is pool webui
